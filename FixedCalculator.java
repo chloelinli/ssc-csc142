@@ -1,4 +1,4 @@
-package fixedCalculator;
+//package fixedCalculator;
 // This program is meant to perform simple mathematical calculations
 // However, it has several bugs... (a dozen, more or less)
 // Your job is to debug the program so that it works as intended
