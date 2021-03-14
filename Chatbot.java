@@ -4,7 +4,7 @@
 // out in a normal day, utilizing user input to accomplish this. It could
 // end up super random, but hopefully it is close enough.
 
-package test;
+//package test;
 
 import java.util.*;
 
@@ -163,7 +163,7 @@ public class Chatbot {
 		questions[4] = "Well, I hope you enjoy what you go into. Now, do you have plans for the future? I won't pry any further hehe.";
 		questions[5] = "What is your favorite animal? I...I don't have one anymore, at the moment.";
 		questions[6] = "Are you allergic to anything, or any animal?";
-		questions[7] = "Was this  really weird conversation? Don't worry, I won't be upset.";
+		questions[7] = "Was this a really weird conversation? Don't worry, I won't be upset.";
 		return questions;
 	}
 	
@@ -173,7 +173,7 @@ public class Chatbot {
 		questions[1] = "What was or is your favorite class or subject in school?";
 		questions[2] = "What did you like about it?";
 		questions[3] = "Coffee or tea? I drink both, but I'm more of a fan of tea.";
-		questions[4] = "Favorite kind then. I enjoy most any tea, but I'm a huge fan of soy iced lattes at the moment.";
+		questions[4] = "Favorite kind then. I enjoy most any tea, but I'm a huge fan of matcha lattes at the moment.";
 		questions[5] = "What's your favorite hobby?";
 		questions[6] = "Favorite or lucky number?";
 		questions[7] = "When guessing the \"secret\" number, do you prefer going first or last? Really goes either way, so.";
@@ -243,7 +243,7 @@ public class Chatbot {
 		puns[3] = "owl by myself";
 		puns[4] = "How long does it take to brew Chinese tea?\n\tOolong time.";
 		puns[5] = "I love you a latte now.";
-		puns[6] = "You won’t believe it, but the price of chocolate has skyrocketed. The other day, I bought a galaxy, a milky way and a mars, it was unbelievably astronomical.";
+		puns[6] = "You wonï¿½t believe it, but the price of chocolate has skyrocketed. The other day, I bought a galaxy, a milky way and a mars, it was unbelievably astronomical.";
 		puns[7] = "potato puns are a-peeling though.";
 		return puns[n];
 	}
