@@ -2,7 +2,7 @@
 // 7/27/19
 // This program is a guessing game in which the user wins when they guess the secret number within the limited number of guesses.
 
-package test;
+//package test;
 
 import java.util.Scanner;
 
