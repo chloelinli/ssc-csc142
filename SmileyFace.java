@@ -2,7 +2,7 @@
 // 7/24/29
 // This program is the code of a smiley face and its animation.
 
-package smileyFace;
+//package smileyFace;
 
 import java.awt.*;
 
