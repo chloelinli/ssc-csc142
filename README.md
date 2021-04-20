@@ -1,6 +1,7 @@
 ## SSC CSC 142
-- Compilation of CSC 142 assignments from South Seattle College
-- Slowly working out bugs
+Compilation of CSC 142 assignments from South Seattle College
+
+Slowly figuring out bugs, I'm a student D: please bear with me, these projects are bad enough
 #### FixedCalculator.java
 - Very simple program
 - No known bugs
