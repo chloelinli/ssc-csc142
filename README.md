@@ -10,7 +10,7 @@ Slowly figuring out bugs, I'm a student D: please bear with me, these projects a
 - Some needed edits to print statements
 - Required to add new implementation
   - Added two new operations (square root `sqrt`, absolute value `abs`) as **Type**
-    - Format ses Strings, so had to separate
+    - Format uses Strings, so had to separate
   - Added conditions (greater than `>`, less than `<`, etc) as **Operation**
     - Format works like given operations
 #### SmileyFace.java
