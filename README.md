@@ -1,5 +1,5 @@
 ## SSC CSC 142
-Compilation of CSC 142 assignments from South Seattle College
+Compilation of CSC 142 assignments
 
 Slowly figuring out bugs, I'm a student D: please bear with me, these projects are bad enough
 #### FixedCalculator.java
