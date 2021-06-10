@@ -22,9 +22,9 @@ public class FixedCalculator {
 		boolean done = false;
 		if (!selection.equalsIgnoreCase("E")){ // "E" for Exit
 			if (selection.equalsIgnoreCase("U")){ // "U" for Use program
-				caluculateResults(console);
+				calculateResults(console);
 			}
-			else if (selection.equalsIgnoreCase("A")) {
+			else if (selection.equalsIgnoreCase("A")) { // "A" for Advanced expressions
 				advancedExpressions(console);
 			}
 			else if (selection.equalsIgnoreCase("H")){ // "H" for Help
@@ -40,7 +40,7 @@ public class FixedCalculator {
 		return done;
 	}
 
-	private static void caluculateResults(Scanner console) {
+	private static void calculateResults(Scanner console) {
 		/* calculator method; simplifying expressions,
 		does not accept regular expressions
 		that don't require equals sign */
@@ -101,8 +101,7 @@ public class FixedCalculator {
 	}
 	
 	private static String getUsersSelection(Scanner console) { // selection of "H", "U", or "E"; go to processSelection method
-		String selection = console.next();
-		return selection;
+		return console.next();
 	}
 
 	private static void displayMenu() { // menu for using program/calculator
@@ -119,10 +118,18 @@ public class FixedCalculator {
 		absolute value, and greater than/less/than/equal to */
 		displayAdvancedInstructions();
 		String advanced = console.next();
-		if (advanced.toLowerCase().equals("type")) {
+
+		while (!advanced.equalsIgnoreCase("type") && !advanced.equalsIgnoreCase("t") &&
+				!advanced.equalsIgnoreCase("operation") && !advanced.equalsIgnoreCase("o")) {
+			System.out.println("Incorrect entry...try again!\n");
+			displayAdvancedInstructions();
+			advanced = console.next();
+		}
+
+		if (advanced.equalsIgnoreCase("type") || advanced.equalsIgnoreCase("t")) {
 			advancedTypes(console);
 		}
-		else if (advanced.toLowerCase().equals("operation")) {
+		else if (advanced.equalsIgnoreCase("operation") || advanced.equalsIgnoreCase("o")) {
 			advancedOperations(console);
 		}
 		else {
@@ -136,7 +143,7 @@ public class FixedCalculator {
 		String type = console.next(); // types are sqrt, abs
 		double value = console.nextDouble();
 		double result = 0.0;
-		if (type.toLowerCase().equals("sqrt")) { // sqrt of positive number
+		if (type.equalsIgnoreCase("sqrt")) { // sqrt of positive number
 			if (value > 0.0) {
 				result = Math.sqrt(value); // positive sqrt
 				String equals = "" + result;
@@ -158,7 +165,7 @@ public class FixedCalculator {
 				System.out.println("Imaginary number, cannot take square root");
 			}
 		}
-		else if (type.toLowerCase().equals("abs")) {
+		else if (type.equalsIgnoreCase("abs")) {
 			result = Math.abs(value);
 			System.out.println("Absolute value of " + value + " = " + result);
 		}
