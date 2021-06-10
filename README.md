@@ -4,7 +4,7 @@ Compilation of CSC 142 assignments
 Slowly figuring out bugs, I'm a student D: please bear with me, these projects are bad enough
 #### FixedCalculator.java
 - [ ] Need to edit print statements
-- [ ] Annoying typo in *caluculateResults* method header, but too lazy to go through entire program
+- [x] Annoying typo in *caluculateResults* method header, but too lazy to go through entire program
 - Very simple program
 - No known bugs
 - Some needed edits to print statements
