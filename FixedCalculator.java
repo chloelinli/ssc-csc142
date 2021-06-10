@@ -119,17 +119,16 @@ public class FixedCalculator {
 		displayAdvancedInstructions();
 		String advanced = console.next();
 
-		while (!advanced.equalsIgnoreCase("type") && !advanced.equalsIgnoreCase("t") &&
-				!advanced.equalsIgnoreCase("operation") && !advanced.equalsIgnoreCase("o")) {
+		while (!advanced.substring(0).equalsIgnoreCase("t") && !advanced.substring(0).equalsIgnoreCase("o")) {
 			System.out.println("Incorrect entry...try again!\n");
 			displayAdvancedInstructions();
 			advanced = console.next();
 		}
 
-		if (advanced.equalsIgnoreCase("type") || advanced.equalsIgnoreCase("t")) {
+		if (advanced.substring(0).equalsIgnoreCase("t")) {
 			advancedTypes(console);
 		}
-		else if (advanced.equalsIgnoreCase("operation") || advanced.equalsIgnoreCase("o")) {
+		else if (advanced.substring(0).equalsIgnoreCase("o")) {
 			advancedOperations(console);
 		}
 		else {

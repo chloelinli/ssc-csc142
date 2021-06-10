@@ -1,3 +1,5 @@
 06/10/21
 FixedCalculator
     advancedExpressions - added while loop for incorrect input
+    changed all toLowerCase().equals() to equalsIgnoreCase()
+    getUsersSelection - removed saved String variable and only return next String in console
