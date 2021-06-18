@@ -3,3 +3,7 @@ FixedCalculator
     advancedExpressions - added while loop for incorrect input, used substring instead of only equals for user input
     changed all toLowerCase().equals() to equalsIgnoreCase()
     getUsersSelection - removed saved String variable and only return next String in console
+GuessMePractice
+    main - changed checking for yes/no/y/n by taking String and converting to array instead of checking specifically
+    playGame - removed return value, added prevGuess to compare to currGuess and answer, fixed print statements for wrong guess, removed print statements for continue game
+    getRandomIntegerBetweenRange - changed name to getRandomIntInRange, added Math.floor method in return value
