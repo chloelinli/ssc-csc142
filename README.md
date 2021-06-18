@@ -19,8 +19,7 @@ Slowly figuring out bugs, I'm a student D: please bear with me, these projects a
 - No seriously, don't run it
 > Professor: I really like this animation! It is very cute and the animation is quite smooth (which is not easy when using the DrawingPanel class)
 #### GuessMePractice.java
-- Bugs? Oh yes, but not sure how to fix yet
-> Professor: Your hints are too confusing, so I found your game frustrating. 9 was "too far" and 10 was "not quite there yet" -- well there is nothing in between that would be "just right"!
+- Advanced bugs that require too many loops and edge cases
 #### Chatbot.java
 - Somehow got full points even with bugs
 - Are there bugs? I'm pretty sure there are
