@@ -17,9 +17,8 @@ public class GuessMePractice {
 			playGame(console);
 
 			// ask for play
-			String keepPlay = "";
 			System.out.print("\nWould you like to play again? [yes/no]: ");
-			keepPlay = console.next().toLowerCase();
+			String keepPlay = console.next().toLowerCase();
 			char[] keepArr = keepPlay.toCharArray();
 
 			// while answer not y/n, loop
