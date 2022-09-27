@@ -1,7 +1,6 @@
 ## SSC CSC 142
 Compilation of CSC 142 assignments
 
-Slowly figuring out bugs, I'm a student D: please bear with me, these projects are bad enough
 #### FixedCalculator.java
 - [ ] Need to edit print statements
 - [x] Annoying typo in *caluculateResults* method header, but too lazy to go through entire program
