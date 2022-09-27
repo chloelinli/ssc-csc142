@@ -1,5 +1,5 @@
-## SSC CSC 142
-Compilation of South Seattle College CSC 142 assignments
+## South Seattle College CSC 142
+Compilation of SSC CSC 142 assignments
 
 #### FixedCalculator.java
 - [ ] Need to edit print statements
